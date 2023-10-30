@@ -8,4 +8,4 @@ Similar tests (in this test, you will see the result after each answer to the qu
 
 
 Other test (in this test, you will see the result after answering all the questions):
- - https://konstantinsenatov.github.io/Deti-woman-tests/other test/
+ - https://konstantinsenatov.github.io/Deti-woman-tests/other-test/
