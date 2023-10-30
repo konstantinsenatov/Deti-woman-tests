@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="test">
+		<div class="test__swiper swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="test__card test-card hero-result-test">
+						<div class="test-card__star test-card__star--blue"></div>
+						<div class="test-card__star test-card__star--yellow"></div>
+						<div class="test-card__star test-card__star--white"></div>
+						<div class="test-card__left">
+							<img class="test-card__left-desk" src="img/1.png" alt="">
+							<img class="test-card__left-mob" src="img/1mob.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="hero-result-test__subtitle test-mob">
+								Кто такой графический дизайнер?
+							</div>
+							<div class="hero-test__title hero-result-test__title test__title test-desk">
+								Пройди тест и убедись, что у тебя получилось верно понять, кто такой гейм-дизайнер и что он делает.
+							</div>
+							<div class="hero-result-test__text test__text test-mob">
+								<div class="test-mob">
+									Пройди тест и убедись, что у тебя получилось верно понять, кто такой гейм-дизайнер и что он делает.
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>начать тест ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/2.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 1 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>С чего начинается разработка любой игры?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemA"><span>Финансовой аналитики</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemB"><span>Концепции</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio1">
+									<label for="test__radiobuttons-itemC"><span>Создания эскизов</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Или не совсем верно: конечно, как любой продукт, игра должна себя окупить. Но сначала – концепция!
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Верно.</b> Конечно, не понимая, о чем будет игра, в каком жанре и какие эмоции будет дарить, начать ее разработку
+										гейм-дизайнер не может.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Эскизы, арты – далеко не первый этап. Ими займутся художники, когда получат техническое задание от
+										гейм-дизайнера.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/3.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 2 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>Без чего не может существовать игра?
+								</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemA"><span>Баланса</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemB"><span>Обновлений</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio2">
+									<label for="test__radiobuttons-itemC"><span>Открытого мира</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Верно.</b> Баланс – важнейшая характеристика любой игры, не только компьютерной. Если бы белые фигуры всегда выигрывали в
+										шахматы, этой игры не существовало бы.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Да, сегодня мы привыкли к патчам, дополнениям
+										и другим обновлениям, но это совершенно не обязательная часть игры.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Так называемый “открытый мир”, когда игрок может решать, по какой “дороге” направиться, – особенность совсем
+										небольшого числа игр.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/4.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 3 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>
+									У гейм-дизайнера должно быть много качеств и навыков. Но без какого он не может работать?
+								</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemA"><span>Умение программировать</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemB"><span>Креативность</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio3">
+									<label for="test__radiobuttons-itemC"><span>Лидерские качества</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Навыки программирования очень пригодятся, но если гейм-дизайнер не может придумать идею игры – игры не будет.
+										Поэтому верный ответ – креативность.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Верно.</b> Конечно, без умения придумывать новое и представлять, как оно будет работать, гейм-дизайнер не запустит процесс
+										создания игры.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Неверно.</b> Хотя наполовину верно: после креативности лидерские качества – вторые по значимости, потому что над
+										современными играми работает целая команда профессионалов.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/5.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 4 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>По какому принципу ландшафтные дизайнеры выбирают те или растения для своего проекта?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemA"><span>Мобильные</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemB"><span>Настольные</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio4">
+									<label for="test__radiobuttons-itemC"><span>Спортивные</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Мобильные игры сегодня – одна из самых востребованных сфер для гейм-дизайнеров.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Гейм-дизайнеры ассоциируются с компьютерными играми, но настольные игры сегодня тоже большая индустрия. А
+										нередко настольные становятся компьютерными – и наоборот.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Верно.</b> У спортивных игр свои механики, и большая их часть исторически регламентирована.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>далее ></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="test-card__star test-card__star--blue"></div>
+					<div class="test-card__star test-card__star--yellow"></div>
+					<div class="test__card test-card question-test">
+						<div class="test-card__left">
+							<img src="img/6.png" alt="">
+						</div>
+						<div class="test-card__right">
+							<div class="test-card__head">
+								<div class="test-card__num">
+									Вопрос 5 из 5
+								</div>
+								<div class="test__btn test__btn-prev back-to-hero">
+									<span>< Назад</span>
+								</div>
+							</div>
+							<div class="test__title test__title--question">
+								<span>Есть только одна преграда для того, чтобы стать гейм-дизайнером. Какая?</span>
+							</div>
+							<div class="test__radiobuttons">
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemA">
+									<input id="test__radiobuttons-itemA" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemA"><span>Гуманитарный склад ума</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemB">
+									<input id="test__radiobuttons-itemB" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemB"><span>Незнание английского языка</span></label>
+								</div>
+								<div class="test__text test__radiobuttons-item test__radiobuttons-itemC">
+									<input id="test__radiobuttons-itemC" type="radio" value="1" name="nameradio5">
+									<label for="test__radiobuttons-itemC"><span>Пренебрежительное отношение к играм</span></label>
+								</div>
+							</div>
+							<div class="test__results">
+								<div class="test__result test__resultA">
+									<span>
+										<b>Неверно.</b> Придумывать сюжеты, необычные концепции и визуальные подходы – все это работа гейм-дизайнера. И
+										программирование здесь не так важно.
+									</span>
+								</div>
+								<div class="test__result test__resultB">
+									<span>
+										<b>Неверно.</b> Да, языки – английский, программирования – пригодятся. Но это навыки, которым можно научиться, а не преграда
+										для того, кто хочет войти в профессию.
+									</span>
+								</div>
+								<div class="test__result test__resultC">
+									<span>
+										<b>Верно.</b> Зачем заниматься тем, что не любишь? В любом продукте всегда читается отношение того, кто его делал, и игры – не
+										исключение.
+									</span>
+								</div>
+							</div>
+							<div class="test__btn test__btn-next test-general-btn test__reset">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<p>< пройти заново</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
